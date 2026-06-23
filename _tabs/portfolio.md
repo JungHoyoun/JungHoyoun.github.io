@@ -1,4 +1,5 @@
 ---
+title: Portfolio
 icon: fas fa-folder-open
 order: 4
 ---

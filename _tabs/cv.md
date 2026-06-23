@@ -1,4 +1,5 @@
 ---
+title: CV
 icon: fas fa-file-lines
 order: 3
 ---

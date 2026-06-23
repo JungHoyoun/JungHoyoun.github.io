@@ -15,7 +15,7 @@ AI Research Engineer focused on making foundation-model training faster, more me
 - LLM pretraining and training-systems optimization for dense and MoE foundation models.
 - GPU kernel work with CUDA, CUTLASS, Triton, and Megatron-LM integration paths.
 - Distributed training profiling across communication, activation memory, bandwidth, and kernel hotspots.
-- Evaluation workflow improvements that shorten the feedback loop between experiments and training recipes.
+- Evaluation workflow improvements that shorten the feedback loop between experiments, model-quality checks, and training recipes.
 
 ## Selected Work
 
@@ -29,7 +29,7 @@ Implemented a Hopper-oriented fused linear cross entropy path using CUTLASS/CuTe
 
 ### Foundation-model pretraining systems
 
-Worked on KT Foundation LLM pretraining, including dense/MoE training setup, distributed configuration tuning, profiling-led bottleneck analysis, and native evaluation workflows for faster quality feedback.
+Worked on KT Foundation LLM pretraining, including dense and 100B+ scale MoE training setup, distributed configuration tuning, profiling-led bottleneck analysis, and native evaluation workflows for faster quality feedback.
 
 ## Contact
 

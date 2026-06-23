@@ -6,7 +6,7 @@ order: 1
 
 # About
 
-I work on LLM pretraining and training systems, with a focus on turning model, kernel, and cluster-level constraints into practical throughput and iteration-speed improvements.
+I work on LLM pretraining and training systems, with a focus on turning model, kernel, and cluster-level constraints into practical throughput and experiment-iteration improvements.
 
 My recent work connects GPU kernels, distributed training, and evaluation pipelines: making training runs more memory-efficient, reducing bottlenecks in MoE and language-model objectives, and building faster feedback loops for model-quality decisions.
 
@@ -17,10 +17,10 @@ My recent work connects GPU kernels, distributed training, and evaluation pipeli
 AI Research Scientist / Research Engineer  
 2024.08 - Present
 
-- Contributed to KT Foundation LLM pretraining and release.
-- Worked on dense and MoE foundation-model training at multi-GPU scale.
+- Led and contributed to KT Foundation LLM pretraining and release work.
+- Worked on pretraining design, stabilization, evaluation pipelines, and training-system optimization for dense and 100B+ scale MoE foundation models.
 - Improved training and evaluation systems through profiling, CUDA/Triton kernel work, and distributed-training bottleneck analysis.
-- Improved MoE training speed by optimizing kernel and training-system paths.
+- Improved MoE training speed by optimizing kernel and distributed-training bottlenecks.
 
 **Technologies:** PyTorch, Megatron-LM, CUDA, Triton, Distributed Training, Low Precision Training
 
@@ -30,7 +30,7 @@ AI Engineer Intern
 2024.01 - 2024.07
 
 - Contributed to HyperCLOVA-V training and release work.
-- Worked on vision encoder training, multimodal data pipelines, Korean and multimodal evaluation workflows, and evaluation result tooling.
+- Worked on multimodal data pipelines, vision encoder training, benchmark design, and evaluation viewer tooling for model-performance analysis.
 
 **Technologies:** PyTorch, FSDP, Vision-Language Models, Data Pipelines
 

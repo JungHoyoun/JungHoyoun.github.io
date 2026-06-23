@@ -18,7 +18,7 @@ AI Research Engineer / LLM Pretraining & Training Systems Optimization
 
 ## Summary
 
-AI Research Engineer working across LLM pretraining and training systems. I focus on GPU kernel optimization, distributed training, evaluation pipelines, and experiment feedback loops that help foundation-model teams train more efficiently under real resource constraints.
+AI Research Engineer working across LLM pretraining and training systems. I focus on GPU kernel optimization, distributed training, evaluation pipelines, and experiment feedback loops that help foundation-model teams secure more useful compute and iterate faster under real resource constraints.
 
 ## Experience
 
@@ -27,10 +27,10 @@ AI Research Engineer working across LLM pretraining and training systems. I focu
 AI Research Scientist / Research Engineer  
 2024.08 - Present
 
-- Contributed to KT Foundation LLM pretraining and release.
-- Worked on dense and MoE foundation-model training with Megatron-LM-based distributed systems.
-- Improved training and evaluation systems, implemented CUDA/Triton kernels, and optimized distributed-training bottlenecks.
-- Improved MoE training speed through profiling-led optimization.
+- Led and contributed to KT Foundation LLM pretraining and release work.
+- Owned pretraining design, stabilization, evaluation pipelines, and training-system optimization for dense and 100B+ scale MoE foundation models.
+- Implemented CUDA/Triton kernels and optimized distributed-training bottlenecks in Megatron-LM-based environments.
+- Improved MoE training speed through profiling-led kernel and systems optimization.
 
 ### NAVER Cloud Vision Understanding Team
 
@@ -38,7 +38,7 @@ AI Engineer Intern
 2024.01 - 2024.07
 
 - Contributed to HyperCLOVA-V release work and multimodal benchmark performance improvements.
-- Worked on vision encoder training, multimodal data collection and cleaning, synthetic data generation, data ablation, and evaluation workflow tooling.
+- Worked on multimodal data collection, cleaning, synthetic data generation, data ablation, vision encoder training, benchmark design, and evaluation viewer tooling.
 
 ## Core Skills
 

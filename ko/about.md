@@ -1,29 +1,29 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 1
+layout: page
+title: 소개
+permalink: /ko/about/
 ---
 
 <div style="display:flex;justify-content:flex-end;gap:.35rem;margin:-.25rem 0 .8rem;font-size:.78rem;letter-spacing:.02em;text-transform:uppercase" aria-label="Language switch">
-  <span style="border:1px solid var(--main-border-color);border-radius:999px;padding:.12rem .48rem;font-weight:700">EN</span>
-  <a href="/ko/about/" style="border:1px solid var(--main-border-color);border-radius:999px;padding:.12rem .48rem">KO</a>
+  <a href="/about/" style="border:1px solid var(--main-border-color);border-radius:999px;padding:.12rem .48rem">EN</a>
+  <span style="border:1px solid var(--main-border-color);border-radius:999px;padding:.12rem .48rem;font-weight:700">KO</span>
 </div>
 
-I work on LLM pretraining and training systems, with a focus on turning model, kernel, and cluster-level constraints into practical throughput and experiment-iteration improvements.
+LLM 사전학습과 학습 시스템을 다룹니다. 모델, 커널, 클러스터 수준의 제약을 실제 처리량 개선과 실험 반복 속도 개선으로 연결하는 일에 집중합니다.
 
-My recent work connects GPU kernels, distributed training, and evaluation pipelines: making training runs more memory-efficient, reducing bottlenecks in MoE and language-model objectives, and building faster feedback loops for model-quality decisions.
+최근에는 GPU 커널, 분산학습, 평가 파이프라인을 함께 다루며 학습 메모리 효율을 높이고, MoE와 언어모델 목적함수의 병목을 줄이고, 모델 품질 판단을 더 빠르게 하는 피드백 루프를 만들고 있습니다.
 
 ## Experience
 
 ### KT LanguageAI Team
 
 AI Research Scientist / Research Engineer  
-2024.08 - Present
+2024.08 - 현재
 
-- Led and contributed to KT Foundation LLM pretraining and release work.
-- Worked on pretraining design, stabilization, evaluation pipelines, and training-system optimization for dense and 100B+ scale MoE foundation models.
-- Improved training and evaluation systems through profiling, CUDA/Triton kernel work, and distributed-training bottleneck analysis.
-- Improved MoE training speed by optimizing kernel and distributed-training bottlenecks.
+- KT Foundation LLM 사전학습 및 출시 작업에 기여했습니다.
+- Dense 및 100B+ 규모 MoE foundation model의 사전학습 설계, 안정화, 평가 파이프라인, 학습 시스템 최적화를 수행했습니다.
+- Profiling, CUDA/Triton kernel 작업, 분산학습 병목 분석을 통해 학습 및 평가 시스템을 개선했습니다.
+- 커널 및 분산학습 병목 최적화로 MoE 학습 속도를 개선했습니다.
 
 **Technologies:** PyTorch, Megatron-LM, CUDA, Triton, Distributed Training, Low Precision Training
 
@@ -32,8 +32,8 @@ AI Research Scientist / Research Engineer
 AI Engineer Intern  
 2024.01 - 2024.07
 
-- Contributed to HyperCLOVA-V training and release work.
-- Worked on multimodal data pipelines, vision encoder training, benchmark design, and evaluation viewer tooling for model-performance analysis.
+- HyperCLOVA-V 학습 및 출시 작업에 기여했습니다.
+- 멀티모달 데이터 파이프라인, vision encoder 학습, benchmark 설계, 성능 분석을 위한 evaluation viewer tooling을 수행했습니다.
 
 **Technologies:** PyTorch, FSDP, Vision-Language Models, Data Pipelines
 

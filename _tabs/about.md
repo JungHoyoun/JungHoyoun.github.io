@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-# About
-
 I work on LLM pretraining and training systems, with a focus on turning model, kernel, and cluster-level constraints into practical throughput and experiment-iteration improvements.
 
 My recent work connects GPU kernels, distributed training, and evaluation pipelines: making training runs more memory-efficient, reducing bottlenecks in MoE and language-model objectives, and building faster feedback loops for model-quality decisions.

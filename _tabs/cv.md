@@ -6,7 +6,9 @@ order: 3
 
 # CV
 
-[Download PDF CV](/assets/files/JungHoyoun_CV_SKT.pdf){: .btn .btn-primary }
+[Download English PDF CV](/assets/files/JungHoyoun_CV_EN.pdf){: .btn .btn-primary }
+[Korean PDF CV](/assets/files/JungHoyoun_CV_SKT.pdf){: .btn .btn-outline-secondary }
+[Korean Web CV](/ko/cv/){: .btn .btn-outline-secondary }
 
 ## Hoyoun Jung (정호윤)
 

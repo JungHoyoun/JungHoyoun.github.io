@@ -1,6 +1,6 @@
 # Hoyoun Jung CV Site
 
-Personal CV and portfolio site built with Jekyll Chirpy and deployed through GitHub Pages.
+Personal CV and project site built with Jekyll Chirpy and deployed through GitHub Pages.
 
 ## Local Preview
 

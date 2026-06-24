@@ -13,6 +13,7 @@ tabs:
   about: About
   projects: Projects
   cv: CV
+  notes: Notes
 
 search:
   hint: search

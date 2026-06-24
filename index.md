@@ -1,9 +1,32 @@
 ---
 layout: page
-title: Hoyoun Jung
+title: Home
 ---
 
 <style>
+.dynamic-title {
+  display: none;
+}
+.page-lang-switch {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  margin: -0.25rem 0 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.page-lang-switch a,
+.page-lang-switch span {
+  border: 1px solid var(--main-border-color);
+  border-radius: 999px;
+  padding: 0.12rem 0.48rem;
+}
+.page-lang-switch span {
+  color: var(--heading-color);
+  background: var(--main-bg);
+  font-weight: 700;
+}
 .hero-lede {
   margin-top: -0.25rem;
   font-size: 1.08rem;
@@ -43,13 +66,19 @@ title: Hoyoun Jung
 }
 </style>
 
+<div class="page-lang-switch" aria-label="Language switch">
+  <span>EN</span>
+  <a href="/ko/">KO</a>
+</div>
+
+# Hoyoun Jung
+
 <p class="hero-lede">
 AI Research Engineer working on large-scale LLM pretraining systems across GPU kernels, distributed training, and evaluation pipelines.
 </p>
 
 [View Projects](/projects/){: .btn .btn-primary }
 [Download CV](/assets/files/JungHoyoun_CV_EN.pdf){: .btn .btn-outline-primary }
-[Korean](/ko/){: .btn .btn-outline-secondary }
 
 <div class="metric-grid">
   <div class="metric"><strong>100B+ MoE</strong><span>Foundation-model pretraining systems</span></div>

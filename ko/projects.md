@@ -6,7 +6,10 @@ permalink: /ko/projects/
 
 # 프로젝트
 
-[English Projects](/projects/){: .btn .btn-outline-secondary }
+<div style="display:flex;justify-content:flex-end;gap:.35rem;margin:-.25rem 0 .8rem;font-size:.78rem;letter-spacing:.02em;text-transform:uppercase" aria-label="Language switch">
+  <a href="/projects/" style="border:1px solid var(--main-border-color);border-radius:999px;padding:.12rem .48rem">EN</a>
+  <span style="border:1px solid var(--main-border-color);border-radius:999px;padding:.12rem .48rem;font-weight:700">KO</span>
+</div>
 
 ## Sonic-MoE Training Optimization
 
@@ -36,6 +39,8 @@ PR #3345 / 2026.01
 
 ![Fused linear cross entropy memory layout](/assets/img/portfolio/fused_lce_memory_layout.png)
 
+![Fused linear cross entropy backward layout](/assets/img/portfolio/fused_lce_backward_layout.png)
+
 ## LLM Pretraining System Optimization
 
 KT Foundation LLM / 2024-2026
@@ -43,5 +48,9 @@ KT Foundation LLM / 2024-2026
 - Dense 및 100B급 MoE Foundation LLM에 맞춘 분산학습 설정 최적화
 - TP/PP/VPP/EP/CP, batch, recomputation, communication overlap, activation memory, kernel hotspot 분석
 - BPB evaluation과 Megatron-LM checkpoint native benchmark evaluation을 통해 평가 피드백 지연 감소
+
+![Training memory profile](/assets/img/portfolio/training_memory_thumb.png)
+
+![Nsight training profile](/assets/img/portfolio/training_nsys_thumb.png)
 
 ![Training profiler summary](/assets/img/portfolio/training_profiler_thumb.png)

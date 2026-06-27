@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="HJ monogram">
+  <rect width="512" height="512" rx="112" fill="#111827"/>
+  <path d="M120 132h58v98h156v-98h58v248h-58V278H178v102h-58V132z" fill="#f8fafc"/>
+  <path d="M344 132h58v166c0 56-34 90-92 90-34 0-62-12-82-34l34-38c13 14 28 21 45 21 24 0 37-14 37-42V132z" fill="#38bdf8"/>
+  <rect x="120" y="404" width="272" height="18" rx="9" fill="#f59e0b"/>
+</svg>

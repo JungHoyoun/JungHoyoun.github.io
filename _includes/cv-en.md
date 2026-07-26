@@ -1,17 +1,12 @@
 # Hoyoun Jung
 
-AI Research Scientist working on large language model pretraining and training systems.
-
-I work on the design, training, and evaluation of foundation models at KT, with an emphasis on making large-scale experiments more reliable and efficient. My interests sit at the intersection of model architecture and systems: mixture-of-experts models, distributed training, GPU kernels, and evaluation workflows.
-
-Previously, I worked on multimodal data, training, and evaluation for HyperCLOVA-V at NAVER Cloud.
+I am an AI Research Scientist at KT working on large language model pretraining and training systems. My work focuses on mixture-of-experts architectures, distributed training, GPU kernels, and reliable evaluation workflows.
 
 ## Research Interests
 
 - Large language model pretraining and scaling
 - Mixture-of-experts architectures and training
 - Distributed training systems and GPU kernels
-- Efficient experimentation and model evaluation
 
 ## Experience
 
@@ -29,12 +24,26 @@ Multimodal data pipelines, vision-encoder training, benchmark design, and evalua
 
 ## Publications
 
-[Google Scholar](https://scholar.google.com/citations?user=hfYf6nAAAAAJ&hl=en)
+[View all publications on Google Scholar](https://scholar.google.com/citations?user=hfYf6nAAAAAJ&hl=en)
 
-1. Hoyoun Jung and Kyung-Joong Kim. “Discrete Prompt Compression with Reinforcement Learning.” *IEEE Access*, 2024.
-2. Hyeon-Chang Jeon, In-Chang Baek, Cheong-mok Bae, Taehwa Park, Wonsang You, Taegwan Ha, Hoyoun Jung, Jinha Noh, Seungwon Oh, and Kyung-Joong Kim. “RaidEnv: Exploring New Challenges in Automated Content Balancing for Boss Raid Games.” *IEEE Transactions on Games*, 2023.
-3. Issac Han, Seungwon Oh, Hoyoun Jung, and Kyung-Joong Kim. “Monte Carlo and Temporal Difference Methods in Reinforcement Learning [AI-eXplained].” *IEEE Computational Intelligence Magazine*, 2023.
-4. Hyeonchang Jeon, Songmi Oh, Wonsang You, Hoyoun Jung, and Kyung-Joong Kim. “Inferring Relationship using Theory of Mind in Press Diplomacy.” *ICML 2022 Workshop on AI for Agent-Based Modelling*, 2022.
+<ol class="publication-list">
+  <li>
+    <strong>Discrete Prompt Compression with Reinforcement Learning</strong><br>
+    <span class="publication-meta"><em>IEEE Access</em>, 2024 · Hoyoun Jung and Kyung-Joong Kim</span>
+  </li>
+  <li>
+    <strong>RaidEnv: Exploring New Challenges in Automated Content Balancing for Boss Raid Games</strong><br>
+    <span class="publication-meta"><em>IEEE Transactions on Games</em>, 2023 · Hyeon-Chang Jeon et al.</span>
+  </li>
+  <li>
+    <strong>Monte Carlo and Temporal Difference Methods in Reinforcement Learning [AI-eXplained]</strong><br>
+    <span class="publication-meta"><em>IEEE Computational Intelligence Magazine</em>, 2023 · Issac Han et al.</span>
+  </li>
+  <li>
+    <strong>Inferring Relationship using Theory of Mind in Press Diplomacy</strong><br>
+    <span class="publication-meta"><em>ICML 2022 Workshop on AI for Agent-Based Modelling</em> · Hyeonchang Jeon et al.</span>
+  </li>
+</ol>
 
 ## Education
 

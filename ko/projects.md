@@ -13,16 +13,12 @@ permalink: /ko/projects/
 
 [PR #143](https://github.com/Dao-AILab/quack/pull/143) / 2026.06
 
-- `squared_relu` 등 activation에 대한 non-gated MoE backward fusion 구현
-- CUTLASS GEMM epilogue에 colvec scale/reduce support를 추가하여 MoE backward computation의 memory access overhead 감소
-- regular 및 varlen-M `gemm_dact`의 정확성을 PyTorch float32 reference와 비교 검증
+- non-gated MoE backward의 scaling과 reduction을 CUTLASS `gemm_dact`에 fusion하고 regular 및 varlen-M 경로 지원
 - Qwen-30B-A3B 설정 기준 `torch.compile` 대비 최대 1.25x dgrad speedup 및 22% memory reduction 확인
 
 ## Fused Linear Cross Entropy in Megatron-LM
 
 [PR #3345](https://github.com/NVIDIA/Megatron-LM/pull/3345) / 2026.01
 
-- CUTLASS/CuTe 스타일 kernel 작업으로 Hopper GPU용 fused linear cross entropy 경로 구현
-- Linear projection과 cross entropy 경로를 fusion해 LLM pretraining 중 전체 vocabulary logits 저장 방지
-- forward에서는 vocab-split online cross entropy, backward에서는 split 단위 recomputation 사용
+- split GEMM과 online cross entropy를 결합한 Hopper용 fused linear cross entropy를 구현해 전체 vocabulary logits 생성을 방지
 - benchmark 설정에서 Triton baseline 대비 1.02x speedup 및 72% activation-memory reduction 확인

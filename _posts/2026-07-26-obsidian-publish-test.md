@@ -28,3 +28,5 @@ def publish_from_obsidian(note: str) -> str:
 ```
 
 이 글의 `published` 속성을 `true`로 전환해 공개 경로를 검증한다.
+
+자동 발행 검증: 두 번째이자 마지막 저장.

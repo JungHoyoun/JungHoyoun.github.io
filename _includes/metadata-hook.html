@@ -1,0 +1,75 @@
+<!-- Remove caches left by the retired Chirpy PWA and version internal page links. -->
+<script>
+  (() => {
+    const buildVersion = "{{ site.time | date: '%s' }}";
+    const cleanupKey = "chirpy-cache-cleanup";
+
+    const versionInternalLinks = () => {
+      document.querySelectorAll('a[href^="/"]').forEach((link) => {
+        const url = new URL(link.getAttribute("href"), window.location.origin);
+
+        if (
+          url.origin !== window.location.origin ||
+          url.pathname.startsWith("/assets/")
+        ) {
+          return;
+        }
+
+        url.searchParams.set("_v", buildVersion);
+        link.setAttribute("href", `${url.pathname}${url.search}${url.hash}`);
+      });
+    };
+
+    const cleanupLegacyPwa = async () => {
+      let wasControlled = false;
+
+      if ("serviceWorker" in navigator) {
+        wasControlled = Boolean(navigator.serviceWorker.controller);
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(
+          registrations.map((registration) => registration.unregister())
+        );
+      }
+
+      if ("caches" in window) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map((key) => caches.delete(key)));
+      }
+
+      if (
+        wasControlled &&
+        sessionStorage.getItem(cleanupKey) !== buildVersion
+      ) {
+        sessionStorage.setItem(cleanupKey, buildVersion);
+        window.location.reload();
+        return true;
+      }
+
+      return false;
+    };
+
+    cleanupLegacyPwa()
+      .then((reloading) => {
+        if (reloading) {
+          return;
+        }
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", versionInternalLinks, {
+            once: true,
+          });
+        } else {
+          versionInternalLinks();
+        }
+      })
+      .catch(() => {
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", versionInternalLinks, {
+            once: true,
+          });
+        } else {
+          versionInternalLinks();
+        }
+      });
+  })();
+</script>

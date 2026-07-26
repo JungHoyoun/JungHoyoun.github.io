@@ -13,5 +13,5 @@ permalink: /ko/notes/
 
 ## Entries
 
-- [example](/ko/notes/example/)  
-  Notes 섹션이 어떻게 보이는지 확인하기 위한 예시 글입니다.
+- [Obsidian 블로그 발행 테스트](/notes/obsidian-publish-test/)
+  Obsidian Slip-box에서 GitHub Pages까지 이어지는 자동 발행 경로 검증.

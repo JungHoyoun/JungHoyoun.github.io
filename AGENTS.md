@@ -1,23 +1,24 @@
-# Homepage Devlog Workflow
+# Homepage operating guide
 
-When the user asks to write or update a devlog for the homepage:
+## Content ownership
 
-1. Read the current project's `DEVLOG_SOURCES.md` if it exists.
-2. Use rough notes and screenshots as the narrative source.
-3. Use project files, logs, and reports only as technical evidence.
-4. Write drafts under `/Users/hoyounjung/HY/JungHoyoun.github.io/draft/devlog/`.
-5. Copy draft images under `/Users/hoyounjung/HY/JungHoyoun.github.io/draft/assets/<post-slug>/`.
-6. Do not publish into `_posts/`, `content/`, or any visible site path unless explicitly asked.
-7. When explicitly asked to commit or push devlog drafts, do it only in this homepage repo.
+- The canonical source for blog posts is the Obsidian vault's `0. Slip-box/`.
+- `_posts/` and `assets/img/posts/` are generated publishing output.
+- Do not hand-edit a generated post. Update the originating Obsidian note and
+  publish it again with GitHub Pager.
+- Routine publishing must not depend on a permanent local clone or a resident
+  background process.
 
-Default post shape:
+## Site-code changes
 
-```markdown
-# Title
+- Use this repository for layouts, navigation, workflows, portfolio assets,
+  and other website code.
+- Keep unrelated generated posts and images untouched.
+- Before removing a post image, verify that no published post references it.
+- Validate changes with the Jekyll build and HTML-Proofer workflow.
 
-## Context
-## Confusion
-## Investigation
-## Finding
-## Takeaway
-```
+## Deployment
+
+- Pull requests run the site build and link checks.
+- A push to `main` builds and deploys GitHub Pages.
+- A failed build must leave the previously deployed site intact.

@@ -1,5 +1,10 @@
 name: "Build and Deploy"
 on:
+  pull_request:
+    branches:
+      - main
+      - master
+
   push:
     branches:
       - main
@@ -19,7 +24,7 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.event_name }}-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
@@ -28,14 +33,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           submodules: true
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -55,11 +60,12 @@ jobs:
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
   deploy:
+    if: github.event_name == 'push'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -68,4 +74,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

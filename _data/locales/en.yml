@@ -6,13 +6,12 @@ layout:
   tag: Tag
 
 tabs:
-  home: Home
+  home: About
   categories: Categories
   tags: Tags
   archives: Archives
   about: About
   projects: Projects
-  cv: CV
   notes: Notes
 
 search:

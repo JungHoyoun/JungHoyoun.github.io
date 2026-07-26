@@ -29,6 +29,8 @@ Multimodal data pipelines, vision-encoder training, benchmark design, and evalua
 
 ## Publications
 
+[Google Scholar](https://scholar.google.com/citations?user=hfYf6nAAAAAJ&hl=en)
+
 1. Hoyoun Jung and Kyung-Joong Kim. “Discrete Prompt Compression with Reinforcement Learning.” *IEEE Access*, 2024.
 2. Hyeon-Chang Jeon, In-Chang Baek, Cheong-mok Bae, Taehwa Park, Wonsang You, Taegwan Ha, Hoyoun Jung, Jinha Noh, Seungwon Oh, and Kyung-Joong Kim. “RaidEnv: Exploring New Challenges in Automated Content Balancing for Boss Raid Games.” *IEEE Transactions on Games*, 2023.
 3. Issac Han, Seungwon Oh, Hoyoun Jung, and Kyung-Joong Kim. “Monte Carlo and Temporal Difference Methods in Reinforcement Learning [AI-eXplained].” *IEEE Computational Intelligence Magazine*, 2023.

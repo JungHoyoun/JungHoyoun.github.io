@@ -11,7 +11,7 @@ from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "JungHoyoun_CV_EN.md"
+INPUT = ROOT / "_includes" / "cv-en.md"
 OUTPUT = ROOT / "assets" / "files" / "JungHoyoun_CV_EN.pdf"
 
 

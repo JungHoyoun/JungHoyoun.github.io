@@ -1,7 +1,7 @@
 ---
 title: Notes
 icon: fas fa-pen-nib
-order: 4
+order: 3
 ---
 
 <div style="display:flex;justify-content:flex-end;gap:.35rem;margin:-.25rem 0 .8rem;font-size:.78rem;letter-spacing:.02em;text-transform:uppercase" aria-label="Language switch">
@@ -13,5 +13,4 @@ Study notes, paper summaries, implementation notes, and small research memos.
 
 ## Entries
 
-- [Obsidian 블로그 발행 테스트](/notes/obsidian-publish-test/)
-  Obsidian Slip-box에서 GitHub Pages까지 이어지는 자동 발행 경로 검증.
+{% include notes-list.html empty="No notes have been published yet." %}

@@ -35,5 +35,4 @@ def publish_from_obsidian(note: str) -> str:
 
 ![obsidian-blog-publish-test](/assets/img/posts/obsidian-publish-test/obsidian-blog-publish-test.png)
 
-- 공개 링크: [공개 링크 대상](/notes/obsidian-public-link-target/)
-- 비공개 링크: 비공개 링크 대상
+공개 위키링크의 블로그 URL 변환과 비공개 위키링크의 텍스트 변환을 검증했다.

@@ -30,3 +30,10 @@ def publish_from_obsidian(note: str) -> str:
 이 글의 `published` 속성을 `true`로 전환해 공개 경로를 검증한다.
 
 자동 발행 검증: 두 번째이자 마지막 저장.
+
+## 이미지와 위키링크 검증
+
+![obsidian-blog-publish-test](/assets/img/posts/obsidian-publish-test/obsidian-blog-publish-test.png)
+
+- 공개 링크: [공개 링크 대상](/notes/obsidian-public-link-target/)
+- 비공개 링크: 비공개 링크 대상

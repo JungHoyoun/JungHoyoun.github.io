@@ -1,0 +1,13 @@
+{% assign notes = site.posts | where_exp: "post", "post.url contains '/notes/'" %}
+{% if notes.size > 0 %}
+<ul>
+  {% for post in notes %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.description %}<br>{{ post.description }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>{{ include.empty }}</p>
+{% endif %}

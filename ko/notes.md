@@ -13,5 +13,4 @@ permalink: /ko/notes/
 
 ## Entries
 
-- [Obsidian 블로그 발행 테스트](/notes/obsidian-publish-test/)
-  Obsidian Slip-box에서 GitHub Pages까지 이어지는 자동 발행 경로 검증.
+{% include notes-list.html empty="아직 발행된 노트가 없습니다." %}

@@ -1,7 +1,7 @@
 ---
 title: Notes
 icon: fas fa-pen-nib
-order: 4
+order: 3
 ---
 
 <div style="display:flex;justify-content:flex-end;gap:.35rem;margin:-.25rem 0 .8rem;font-size:.78rem;letter-spacing:.02em;text-transform:uppercase" aria-label="Language switch">

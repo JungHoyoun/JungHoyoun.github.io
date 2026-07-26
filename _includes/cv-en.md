@@ -24,8 +24,6 @@ Multimodal data pipelines, vision-encoder training, benchmark design, and evalua
 
 ## Publications
 
-[View all publications on Google Scholar](https://scholar.google.com/citations?user=hfYf6nAAAAAJ&hl=en)
-
 <ol class="publication-list">
   <li>
     <strong>Discrete Prompt Compression with Reinforcement Learning</strong><br>
@@ -50,8 +48,6 @@ Multimodal data pipelines, vision-encoder training, benchmark design, and evalua
 ### Gwangju Institute of Science and Technology (GIST)
 
 **M.S., School of Integrated Technology** · Mar 2022–Feb 2024
-
-Reinforcement Learning
 
 ### Sungkyunkwan University
 

@@ -1,0 +1,248 @@
+:root {
+  --home-background: #fbfbfa;
+  --home-text: #252525;
+  --home-muted: #6b6b68;
+  --home-rule: #deded9;
+  --home-link: #202020;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body.home-page {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--home-background);
+  color: var(--home-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.72;
+  text-rendering: optimizeLegibility;
+}
+
+.home-shell {
+  width: min(760px, calc(100% - 2.5rem));
+  margin: 0 auto;
+  padding: 0 0 4rem;
+}
+
+.home-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0 0 4rem calc(50% - 50vw);
+  padding: 0 max(1.25rem, calc((100vw - 760px) / 2));
+  min-height: 50px;
+  border-bottom: 1px solid var(--home-rule);
+  background: rgba(251, 251, 250, .96);
+  backdrop-filter: blur(8px);
+  font-size: .92rem;
+}
+
+.home-nav a,
+.home-content a {
+  color: var(--home-link);
+  text-decoration-thickness: .08em;
+  text-underline-offset: .16em;
+}
+
+.home-nav a {
+  text-decoration: none;
+}
+
+.home-nav a:hover,
+.home-content a:hover {
+  color: #000;
+}
+
+.home-wordmark {
+  display: inline-flex;
+  align-items: center;
+  align-self: stretch;
+  padding: 0 .9rem;
+  background: #242424;
+  color: #fff !important;
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.home-nav-links {
+  display: flex;
+  gap: 1.15rem;
+}
+
+.home-nav-links a {
+  color: var(--home-muted);
+}
+
+.home-nav-links a:hover {
+  color: var(--home-text);
+}
+
+.home-identity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-avatar {
+  width: 184px;
+  height: 184px;
+  flex: 0 0 184px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.home-content h1,
+.home-content h2 {
+  color: var(--home-text);
+  font-weight: 700;
+  letter-spacing: -.035em;
+}
+
+.home-content h1 {
+  margin: 0;
+  font-size: clamp(2.1rem, 4vw, 2.6rem);
+  line-height: 1.08;
+  text-align: center;
+}
+
+.home-role {
+  margin: .45rem 0 0;
+  color: var(--home-muted);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.home-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .85rem;
+  margin-top: .8rem;
+  font-size: .9rem;
+}
+
+.home-socials a {
+  color: var(--home-muted);
+}
+
+.home-intro {
+  max-width: 700px;
+  margin: 2.25rem 0 0;
+  font-size: 1.05rem;
+}
+
+.home-intro p {
+  margin: 0 0 1rem;
+}
+
+.home-section {
+  margin-top: 3.5rem;
+  padding-top: 2.6rem;
+  border-top: 1px solid var(--home-rule);
+}
+
+.home-section h2 {
+  margin: 0 0 1.15rem;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.home-section ul {
+  margin: 0;
+  padding-left: 1.35rem;
+}
+
+.home-section li {
+  margin: .55rem 0;
+}
+
+.home-section li::marker {
+  color: #888883;
+}
+
+.home-section p {
+  margin: .6rem 0;
+}
+
+.home-empty {
+  margin: 0;
+  color: var(--home-muted);
+}
+
+.home-work-list {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.home-work-list li {
+  margin: .8rem 0 1rem;
+}
+
+.home-work-list li strong {
+  display: block;
+  margin-bottom: .2rem;
+}
+
+.home-work-meta {
+  color: var(--home-muted);
+  font-size: .92rem;
+}
+
+.home-footer {
+  margin-top: 4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--home-rule);
+  color: var(--home-muted);
+  font-size: .86rem;
+}
+
+@media (max-width: 560px) {
+  body.home-page {
+    font-size: 16px;
+  }
+
+  .home-shell {
+    width: min(100% - 2rem, 760px);
+    padding-top: 0;
+  }
+
+  .home-nav {
+    margin-bottom: 3.25rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .home-nav-links {
+    gap: .8rem;
+  }
+
+  .home-identity {
+    gap: 1rem;
+  }
+
+  .home-avatar {
+    width: 144px;
+    height: 144px;
+    flex-basis: 144px;
+  }
+
+  .home-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-intro {
+    margin-top: 1.75rem;
+  }
+}

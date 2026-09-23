@@ -5,9 +5,12 @@ description: Hoyoun Jung is an AI Research Scientist focused on LLM pretraining,
 ---
 
 <header class="home-nav" aria-label="Primary navigation">
-  <a class="home-wordmark" href="{{ '/' | relative_url }}">Hoyoun Jung</a>
+  <a class="home-wordmark" href="{{ '/' | relative_url }}">Hoyoun Jung<span class="home-mark" aria-hidden="true"></span></a>
   <nav class="home-nav-links" aria-label="Sections">
     <a href="#about">About</a>
+    <a href="#writing">Writing</a>
+    <a href="#work">Work</a>
+    <a href="#now-title">Now</a>
   </nav>
 </header>
 

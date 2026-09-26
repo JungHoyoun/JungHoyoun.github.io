@@ -236,6 +236,12 @@ body.home-page {
   font-size: .92rem;
 }
 
+.home-work-description {
+  display: block;
+  color: var(--home-muted);
+  font-size: .92rem;
+}
+
 .home-footer {
   margin-top: 4rem;
   padding-top: 1.25rem;

@@ -57,11 +57,11 @@ description: Hoyoun Jung is an AI Research Scientist focused on LLM pretraining,
     <ul class="home-work-list">
       <li>
         <strong><a href="https://github.com/Dao-AILab/quack/pull/143">Non-Gated MoE Backward Fusion in QuACK</a></strong>
-        <span class="home-work-meta">CUDA / CUTLASS · 2026</span>
+        <span class="home-work-description">A fused backward path for non-gated MoE layers that makes training more efficient.</span>
       </li>
       <li>
         <strong><a href="https://github.com/NVIDIA/Megatron-LM/pull/3345">Fused Linear Cross Entropy in Megatron-LM</a></strong>
-        <span class="home-work-meta">Training systems / memory efficiency · 2026</span>
+        <span class="home-work-description">A memory-efficient fused loss path for large language model training.</span>
       </li>
     </ul>
   </section>

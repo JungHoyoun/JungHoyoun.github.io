@@ -64,10 +64,6 @@ description: Hoyoun Jung is an AI Research Scientist focused on LLM pretraining,
         <strong><a href="https://github.com/NVIDIA/Megatron-LM/pull/3345">Fused Linear Cross Entropy in Megatron-LM</a></strong>
         <span class="home-work-meta">Training systems / memory efficiency · 2026</span>
       </li>
-      <li>
-        <strong><a href="https://github.com/JungHoyoun">GitHub</a></strong>
-        <span class="home-work-meta">Code, experiments, and public contributions</span>
-      </li>
     </ul>
   </section>
 

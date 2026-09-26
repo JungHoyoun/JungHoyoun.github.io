@@ -10,7 +10,6 @@ description: Hoyoun Jung is an AI Research Scientist focused on LLM pretraining,
     <a href="#about">About</a>
     <a href="#writing">Writing</a>
     <a href="#work">Work</a>
-    <a href="#now-title">Now</a>
   </nav>
 </header>
 
@@ -67,10 +66,6 @@ description: Hoyoun Jung is an AI Research Scientist focused on LLM pretraining,
     </ul>
   </section>
 
-  <section class="home-section" aria-labelledby="now-title">
-    <h2 id="now-title">Now</h2>
-    <p>Building stronger evidence in LLM training systems, GPU optimization, and technical writing.</p>
-  </section>
 </main>
 
 <footer class="home-footer">
